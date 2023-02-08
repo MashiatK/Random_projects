@@ -1,0 +1,7 @@
+import phonenumbers
+from phonenumbers import geocoder
+
+
+phone_no=phonenumbers.parse('+8801714387531')
+
+print(geocoder.description_for_number(phone_no,'en'))
